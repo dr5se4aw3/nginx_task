@@ -1,24 +1,18 @@
 # README
+## Procfileとは
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+問題の説明として正しいものを❶〜❹から選んでください。
+❶AEF
+❷CD
+❸ABC
+❹BF
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+A: Herokuのプラットフォーム上にあるアプリケーションのdynosにより実行されるコマンドが何であるかを宣言するためのメカニズムである。
+B: Railsアプリで利用するgemの一覧を管理するファイル。
+C: デスクトップ版Herokuアプリのインストーラーとなるファイル。
+D: データベースを生成する際の設計図になるファイル。
+E: Procfileに記述されたプロセスが実行される時に呼び出されるコマンドの宣言となっている。
+F: Heroku上にあるアプリケーションが、どのようなコマンドで実行されるかを示す指示書のようなものである。今回の課題であれば「WEBサーバーとしてNginxを使う」といった内容。
+```
