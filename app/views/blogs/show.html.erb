@@ -1,14 +1,7 @@
-<p id="notice"><%= notice %></p>
+<h2>ブログ詳細</h2>
 
-<p>
-  <strong>Title:</strong>
-  <%= @blog.title %>
-</p>
+<p>タイトル： <%= @blog.title %></p>
+<p>内容： <%= @blog.content %></p>
 
-<p>
-  <strong>Content:</strong>
-  <%= @blog.content %>
-</p>
-
-<%= link_to 'Edit', edit_blog_path(@blog) %> |
-<%= link_to 'Back', blogs_path %>
+<p><%= link_to 'ブログ一覧画面へ', blogs_path %></p>
+<p><%= link_to '新しくブログを投稿する', new_blog_path %></p>
